@@ -83,7 +83,7 @@ if ( total === 4 ) {
  document.write("<p>You only missed one, good work!</p>");
 }
 if ( total === 3 ) {
- document.write("<p>You got a bronze, not bad!</p>");
+ document.write("<p>You got three right, not bad!</p>");
 }
 if ( total === 2 ) {
  document.write("<p>You got two right, I'd hit the books.</p>");
