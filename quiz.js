@@ -75,6 +75,7 @@ if ( correct5 === 1 ) {
  document.write("<p>Sorry, you didn't get that right.</p>");
 }
 
+document.write("<p>" "<p>");
 document.write("<p>Your final score is: " + total + "<p>");
 if ( total === 5 ) {
  document.write("<p>You got a perfect score, congratulations!</p>");
