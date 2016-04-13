@@ -1,5 +1,10 @@
 // variables
-var correct = 0;
+var correct1 = 0;
+var correct2 = 0;
+var correct3 = 0;
+var correct4 = 0;
+var correct5 = 0;
+var total = 0;
 
 // prompt
 var answer1 = prompt("Who was the second President of the United States?");
@@ -10,26 +15,36 @@ var answer5 = prompt("Magician David Kotkin managed to change his name to what?"
 
 // if statement
 if ( answer1.toUpperCase() === 'JOHN ADAMS' ) {
- correct += 1;
+ correct1 += 1;
+ total += 1;
 }
 
 if ( answer2.toUpperCase() === 'EIGHT' ) {
- correct += 1;
+ correct2 += 1;
+ total += 1;
 }
 
 if ( answer3.toUpperCase() === 'MADRID' ) {
- correct += 1;
+ correct3 += 1;
+ total += 1;
 }
 
 if ( answer4.toUpperCase() === 'DALLAS' ) {
- correct += 1;
+ correct4 += 1;
 }
 
 if ( answer5.toUpperCase() === 'DAVID COPPERFIELD' ) {
- correct += 1;
+ correct5 += 1;
 }
 
 // output results
-document.write("<p>write something to page...</p>");
+document.write("<p>Question 1: </p>");
 document.write("<p>" + answer1 + "<p>");
-document.write("<p>Your final score is:" + correct + "<p>");
+document.write("<p>Your final score is: " + correct + "<p>");
+
+
+
+
+
+
+
