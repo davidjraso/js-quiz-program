@@ -76,6 +76,25 @@ if ( correct5 === 1 ) {
 }
 
 document.write("<p>Your final score is: " + total + "<p>");
+if ( total === 5 ) {
+ document.write("<p>You got a perfect score, congratulations!</p>");
+}
+if ( total === 4 ) {
+ document.write("<p>You only missed one, good work!</p>");
+}
+if ( total === 3 ) {
+ document.write("<p>You got a bronze, not bad!</p>");
+}
+if ( total === 2 ) {
+ document.write("<p>You got two right, I'd hit the books.</p>");
+}
+if ( total === 1 ) {
+ document.write("<p>You only got one right, you need to study more.</p>");
+}
+if ( total === 0 ) {
+ document.write("<p>You missed them all. Do better.</p>");
+}
+
 
 
 
