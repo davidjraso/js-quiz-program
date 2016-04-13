@@ -68,7 +68,7 @@ if ( correct4 === 1 ) {
  document.write("<p>Sorry, you didn't get that right.</p>");
 }
 
-document.write("<p>Question 5: The correct answer is David Copperfield and you said " + answer1 + "</p>");
+document.write("<p>Question 5: The correct answer is David Copperfield and you said " + answer5 + "</p>");
 if ( correct5 === 1 ) {
  document.write("<p>You got a point!</p>");
 } else {
