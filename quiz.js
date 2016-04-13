@@ -31,16 +31,20 @@ if ( answer3.toUpperCase() === 'MADRID' ) {
 
 if ( answer4.toUpperCase() === 'DALLAS' ) {
  correct4 += 1;
+ total += 1;
 }
 
 if ( answer5.toUpperCase() === 'DAVID COPPERFIELD' ) {
  correct5 += 1;
+ total += 1;
 }
 
 // output results
-document.write("<p>Question 1: </p>");
-document.write("<p>" + answer1 + "<p>");
-document.write("<p>Your final score is: " + correct + "<p>");
+document.write("<p>Question 1: The correct answer is JOHN ADAMS and you said " + answer1 + "</p>");
+if ( correct1 === 1 ) {
+ document.write("<p>You got a point!</p>");
+}
+document.write("<p>Your final score is: " + total + "<p>");
 
 
 
