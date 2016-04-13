@@ -40,10 +40,41 @@ if ( answer5.toUpperCase() === 'DAVID COPPERFIELD' ) {
 }
 
 // output results
-document.write("<p>Question 1: The correct answer is JOHN ADAMS and you said " + answer1 + "</p>");
+document.write("<p>Question 1: The correct answer is John Adams and you said " + answer1 + "</p>");
 if ( correct1 === 1 ) {
  document.write("<p>You got a point!</p>");
+} else {
+ document.write("<p>Sorry, you didn't get that right.</p>");
 }
+
+document.write("<p>Question 2: The correct answer is eight and you said " + answer2 + "</p>");
+if ( correct2 === 1 ) {
+ document.write("<p>You got a point!</p>");
+} else {
+ document.write("<p>Sorry, you didn't get that right.</p>");
+}
+
+document.write("<p>Question 3: The correct answer is Madrid and you said " + answer3 + "</p>");
+if ( correct3 === 1 ) {
+ document.write("<p>You got a point!</p>");
+} else {
+ document.write("<p>Sorry, you didn't get that right.</p>");
+}
+
+document.write("<p>Question 4: The correct answer is Dalas and you said " + answer4 + "</p>");
+if ( correct4 === 1 ) {
+ document.write("<p>You got a point!</p>");
+} else {
+ document.write("<p>Sorry, you didn't get that right.</p>");
+}
+
+document.write("<p>Question 5: The correct answer is David Copperfield and you said " + answer1 + "</p>");
+if ( correct5 === 1 ) {
+ document.write("<p>You got a point!</p>");
+} else {
+ document.write("<p>Sorry, you didn't get that right.</p>");
+}
+
 document.write("<p>Your final score is: " + total + "<p>");
 
 
