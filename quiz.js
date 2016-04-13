@@ -2,12 +2,33 @@
 var correct = 0;
 
 // prompt
-var answer1 = prompt("ask a question...");
+var answer1 = prompt("Who was the second President of the United States?");
+var answer2 = prompt("What is the square root of 64? (write out the answer, don't us numbers)");
+var answer3 = prompt("What is the capital of Spain");
+var answer4 = prompt("Where do the Super Bowl winning Cowboys come form?");
+var answer5 = prompt("Magician David Kotkin managed to change his name to what?");
 
 // if statement
-if ( answer1.toUpperCase() === 'MAGIC' ) {
+if ( answer1.toUpperCase() === 'JOHN ADAMS' ) {
+ correct += 1;
+}
+
+if ( answer2.toUpperCase() === 'EIGHT' ) {
+ correct += 1;
+}
+
+if ( answer3.toUpperCase() === 'MADRID' ) {
+ correct += 1;
+}
+
+if ( answer4.toUpperCase() === 'DALLAS' ) {
+ correct += 1;
+}
+
+if ( answer5.toUpperCase() === 'DAVID COPPERFIELD' ) {
  correct += 1;
 }
 
 // output results
 document.write("<p>write something to page...</p>");
+document.write("<p>" + answer1 + "<p>");
