@@ -61,7 +61,7 @@ if ( correct3 === 1 ) {
  document.write("<p>Sorry, you didn't get that right.</p>");
 }
 
-document.write("<p>Question 4: The correct answer is Dalas and you said " + answer4 + "</p>");
+document.write("<p>Question 4: The correct answer is Dallas and you said " + answer4 + "</p>");
 if ( correct4 === 1 ) {
  document.write("<p>You got a point!</p>");
 } else {
