@@ -32,3 +32,4 @@ if ( answer5.toUpperCase() === 'DAVID COPPERFIELD' ) {
 // output results
 document.write("<p>write something to page...</p>");
 document.write("<p>" + answer1 + "<p>");
+document.write("<p>Your final score is:" + correct + "<p>");
