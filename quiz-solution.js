@@ -2,14 +2,15 @@
 var correct = 0;
 
 
-function question() {
- var answerInput = prompt("Name a programming language that's also a gem");
- if ( answerInput.toUpperCase() === 'RUBY' ) {
+function question(questionText, realAnswer) {
+ var answerInput = prompt(questionText);
+ if ( answerInput.toUpperCase() === realAnswer ) {
   correct += 1; 
  }
 }
 
-question();
+question("asking some question", "TEST");
+question("asking again", "ANSWER")
 // ask questions
 //var answer1 = prompt("Name a programming language that's also a gem");
 //if ( answer1.toUpperCase() === 'RUBY' ) {
