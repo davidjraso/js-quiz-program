@@ -1,9 +1,11 @@
 // quiz begins, no answers correct
 var correct = 0;
+var totalAsked = 0;
 
 
 function question(questionText, realAnswer) {
  var answerInput = prompt(questionText);
+ totalAsked +=1;
  if ( answerInput.toUpperCase() === realAnswer ) {
   correct += 1; 
  }
@@ -34,7 +36,7 @@ question("asking again", "ANSWER")
 //}
 
 // output results
-document.write("<p>You got " + correct + " out of 5 questions correct.<p>");
+document.write("<p>You got " + correct + " out of " + totalAsked + "questions correct.<p>");
 
 // output rank
 if ( correct === 5 ) {
